@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bihan.iml" filepath="$PROJECT_DIR$/Bihan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-android-location-services-dialog-box/android/react-native-android-location-services-dialog-box.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-android-location-services-dialog-box/android/react-native-android-location-services-dialog-box.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-cloudinary/android/react-native-cloudinary.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-cloudinary/android/react-native-cloudinary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-image-picker/android/react-native-image-picker.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-image-picker/android/react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-imei/android/react-native-imei.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-imei/android/react-native-imei.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-smart-splash-screen/android/react-native-smart-splash-screen.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-smart-splash-screen/android/react-native-smart-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-youtube/android/react-native-youtube.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-youtube/android/react-native-youtube.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,36 @@
+{
+  "name": "Bihan",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-android-location-services-dialog-box": "^2.6.0",
+    "react-native-cloudinary": "^1.0.1",
+    "react-native-collapsible": "^0.10.0",
+    "react-native-fab": "^1.0.6",
+    "react-native-gesture-handler": "^1.0.0-alpha.41",
+    "react-native-image-picker": "^0.26.10",
+    "react-native-imei": "^0.1.1",
+    "react-native-maps": "^0.21.0",
+    "react-native-material-kit": "^0.5.1",
+    "react-native-smart-splash-screen": "^2.3.5",
+    "react-native-swiper": "^1.5.13",
+    "react-native-tab-view": "^0.0.74",
+    "react-native-vk-image-picker": "^1.0.2",
+    "react-navigation": "^1.0.0-beta.22"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.4",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

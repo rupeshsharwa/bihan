@@ -1,0 +1,80 @@
+import React, { Component } from 'react';
+
+import {
+  StyleSheet,
+  Text,
+  View,
+  TouchableOpacity,
+} from 'react-native';
+import Collapsible from 'react-native-collapsible';
+import Accordion from 'react-native-collapsible/Accordion';
+class SuccessStory extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      collapse:true
+    };
+  }
+
+  _renderHeader(section) {
+    return (
+      <TouchableOpacity style={styles.list} >
+      <Text style={{marginLeft:5,fontSize:16,color:'#000000',fontWeight:'bold'}}>{section.title}</Text>
+      </TouchableOpacity>
+    );
+  }
+
+  _renderContent(section,isActive,index) {
+    console.log(isActive);
+    return (
+      <View style={styles.content}>
+      {
+        section.data.map((d,j)=>{
+          if (d === '') {
+            return null ;
+          }else {
+            return (
+              <View  key={j} style={{paddingBottom:20}}>
+              <Text style={{fontSize:16,textAlign:'justify',marginLeft:5}} >{d}</Text>
+              </View>
+            )
+          }
+        })
+      }
+      </View>
+    );
+  }
+
+  render() {
+    let myarray = [];
+    myarray.push(this.props)
+    console.log(myarray);
+    return (
+      <View >
+      <Accordion
+         sections={myarray}
+         renderHeader={this._renderHeader}
+         renderContent={this._renderContent}
+          />
+      </View>
+    );
+  }
+
+}
+
+export default SuccessStory;
+
+const styles = StyleSheet.create({
+  list:{
+    flex:1,
+    height:50,
+    width:'100%',
+    backgroundColor:'#efefef',
+    justifyContent:'space-between',
+    alignItems:'center',
+    margin:2,
+    borderColor:'black',
+    flexDirection:'row'
+  },
+
+})
